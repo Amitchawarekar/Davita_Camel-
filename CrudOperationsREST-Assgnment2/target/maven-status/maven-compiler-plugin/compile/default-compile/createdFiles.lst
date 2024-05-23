@@ -1,0 +1,3 @@
+com\citiustech\restprojects\processor\BasicAuthProcessor.class
+com\citiustech\restprojects\model\Patient.class
+com\citiustech\restprojects\route\PatientCrudRoute.class

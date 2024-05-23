@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1716467249814
+Build-Jdk-Spec: 17
+Bundle-Blueprint: OSGI-INF/blueprint/restproject-blueprint.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Content-Based Router Example[CrudOperationsREST-Assgn
+ ment2]
+Bundle-SymbolicName: CrudOperationsREST-Assgnment2
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Export-Package: com.citiustech.restprojects.model;version="1.0.0",com.ci
+ tiustech.restprojects.processor;uses:="org.apache.camel";version="1.0.0
+ ",com.citiustech.restprojects.route;uses:="org.apache.camel.builder";ve
+ rsion="1.0.0"
+Import-Package: com.citiustech.restprojects.processor,org.apache.camel;v
+ ersion="[2.23,3)",org.apache.camel.builder;version="[2.23,3)",org.apach
+ e.camel.model;version="[2.23,3)",org.apache.camel.model.rest;version="[
+ 2.23,3)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.springf
+ ramework.jdbc.datasource
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
